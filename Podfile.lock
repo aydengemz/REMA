@@ -1,0 +1,47 @@
+PODS:
+  - IBMWatsonAssistantV1 (0.35.0):
+    - IBMWatsonRestKit (= 1.2.0)
+  - IBMWatsonConversationV1 (0.35.0):
+    - IBMWatsonRestKit (= 1.2.0)
+  - IBMWatsonRestKit (1.2.0)
+  - IBMWatsonSpeechToTextV1 (0.35.0):
+    - IBMWatsonRestKit (= 1.2.0)
+    - Starscream (~> 3.0)
+  - IBMWatsonTextToSpeechV1 (0.35.0):
+    - IBMWatsonRestKit (= 1.2.0)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Starscream (3.0.5)
+
+DEPENDENCIES:
+  - IBMWatsonAssistantV1
+  - IBMWatsonConversationV1
+  - IBMWatsonSpeechToTextV1
+  - IBMWatsonTextToSpeechV1
+  - JSQMessagesViewController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMWatsonAssistantV1
+    - IBMWatsonConversationV1
+    - IBMWatsonRestKit
+    - IBMWatsonSpeechToTextV1
+    - IBMWatsonTextToSpeechV1
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - Starscream
+
+SPEC CHECKSUMS:
+  IBMWatsonAssistantV1: 21fc1465e3cc7dde37b0062f2793963d3a898014
+  IBMWatsonConversationV1: 2604432245dee4f89f038f96d9ba53cdda3da2a9
+  IBMWatsonRestKit: b05aa0aa912724accbf6ed9475654602886f0782
+  IBMWatsonSpeechToTextV1: 660614daa343d7e8de8522de891a1b009ba7b5ac
+  IBMWatsonTextToSpeechV1: e73127696c17ca93138950c829d9a40aefd9d029
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+
+PODFILE CHECKSUM: 01b64a4df51d150e4a3ddfb1d477496e691c240d
+
+COCOAPODS: 1.5.3
