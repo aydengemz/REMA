@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		85DD662D6DCB2169986ADCD2 /* Pods_REMA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF637B8E93E9F49E0DCAFB1 /* Pods_REMA.framework */; };
+		F60B26EE216AD19500B5FE5C /* K2D-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E3216AD19300B5FE5C /* K2D-SemiBold.ttf */; };
+		F60B26EF216AD19500B5FE5C /* K2D-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E4216AD19300B5FE5C /* K2D-LightItalic.ttf */; };
+		F60B26F0216AD19500B5FE5C /* K2D-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E5216AD19400B5FE5C /* K2D-Light.ttf */; };
+		F60B26F1216AD19500B5FE5C /* K2D-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E6216AD19400B5FE5C /* K2D-Italic.ttf */; };
+		F60B26F2216AD19500B5FE5C /* K2D-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E7216AD19400B5FE5C /* K2D-Regular.ttf */; };
+		F60B26F3216AD19500B5FE5C /* K2D-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E8216AD19400B5FE5C /* K2D-Thin.ttf */; };
+		F60B26F4216AD19500B5FE5C /* K2D-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E9216AD19400B5FE5C /* K2D-ThinItalic.ttf */; };
+		F60B26F5216AD19500B5FE5C /* K2D-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26EA216AD19400B5FE5C /* K2D-ExtraLightItalic.ttf */; };
+		F60B26F6216AD19500B5FE5C /* K2D-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26EB216AD19400B5FE5C /* K2D-MediumItalic.ttf */; };
+		F60B26F7216AD19500B5FE5C /* K2D-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26EC216AD19500B5FE5C /* K2D-SemiBoldItalic.ttf */; };
+		F60B26F8216AD19500B5FE5C /* K2D-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26ED216AD19500B5FE5C /* K2D-Medium.ttf */; };
 		F62A446E216A81C200F02781 /* AssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A446D216A81C200F02781 /* AssistantViewController.swift */; };
 		F62A4471216A81CF00F02781 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A446F216A81CF00F02781 /* Credentials.swift */; };
 		F62A4472216A81CF00F02781 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A4470216A81CF00F02781 /* User.swift */; };
@@ -23,6 +34,17 @@
 		45631E22BE5D00D5E5178F13 /* Pods-REMA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REMA.release.xcconfig"; path = "Pods/Target Support Files/Pods-REMA/Pods-REMA.release.xcconfig"; sourceTree = "<group>"; };
 		5BF637B8E93E9F49E0DCAFB1 /* Pods_REMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BAEE264B0DCC058E3D8B69 /* Pods-REMA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REMA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REMA/Pods-REMA.debug.xcconfig"; sourceTree = "<group>"; };
+		F60B26E3216AD19300B5FE5C /* K2D-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-SemiBold.ttf"; sourceTree = "<group>"; };
+		F60B26E4216AD19300B5FE5C /* K2D-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-LightItalic.ttf"; sourceTree = "<group>"; };
+		F60B26E5216AD19400B5FE5C /* K2D-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Light.ttf"; sourceTree = "<group>"; };
+		F60B26E6216AD19400B5FE5C /* K2D-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Italic.ttf"; sourceTree = "<group>"; };
+		F60B26E7216AD19400B5FE5C /* K2D-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Regular.ttf"; sourceTree = "<group>"; };
+		F60B26E8216AD19400B5FE5C /* K2D-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Thin.ttf"; sourceTree = "<group>"; };
+		F60B26E9216AD19400B5FE5C /* K2D-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F60B26EA216AD19400B5FE5C /* K2D-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F60B26EB216AD19400B5FE5C /* K2D-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F60B26EC216AD19500B5FE5C /* K2D-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F60B26ED216AD19500B5FE5C /* K2D-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Medium.ttf"; sourceTree = "<group>"; };
 		F62A446D216A81C200F02781 /* AssistantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistantViewController.swift; sourceTree = "<group>"; };
 		F62A446F216A81CF00F02781 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		F62A4470216A81CF00F02781 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -57,6 +79,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F60B26E2216AD17000B5FE5C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F60B26EA216AD19400B5FE5C /* K2D-ExtraLightItalic.ttf */,
+				F60B26E6216AD19400B5FE5C /* K2D-Italic.ttf */,
+				F60B26E5216AD19400B5FE5C /* K2D-Light.ttf */,
+				F60B26E4216AD19300B5FE5C /* K2D-LightItalic.ttf */,
+				F60B26ED216AD19500B5FE5C /* K2D-Medium.ttf */,
+				F60B26EB216AD19400B5FE5C /* K2D-MediumItalic.ttf */,
+				F60B26E7216AD19400B5FE5C /* K2D-Regular.ttf */,
+				F60B26E3216AD19300B5FE5C /* K2D-SemiBold.ttf */,
+				F60B26EC216AD19500B5FE5C /* K2D-SemiBoldItalic.ttf */,
+				F60B26E8216AD19400B5FE5C /* K2D-Thin.ttf */,
+				F60B26E9216AD19400B5FE5C /* K2D-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		F6DC6BFB216A70C30084293D = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +128,7 @@
 				F6DC6C0E216A70C70084293D /* Assets.xcassets */,
 				F6DC6C10216A70C70084293D /* LaunchScreen.storyboard */,
 				F6DC6C13216A70C70084293D /* Info.plist */,
+				F60B26E2216AD17000B5FE5C /* fonts */,
 			);
 			path = REMA;
 			sourceTree = "<group>";
@@ -161,8 +202,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DC6C12216A70C70084293D /* LaunchScreen.storyboard in Resources */,
+				F60B26F3216AD19500B5FE5C /* K2D-Thin.ttf in Resources */,
+				F60B26F1216AD19500B5FE5C /* K2D-Italic.ttf in Resources */,
+				F60B26F5216AD19500B5FE5C /* K2D-ExtraLightItalic.ttf in Resources */,
+				F60B26EE216AD19500B5FE5C /* K2D-SemiBold.ttf in Resources */,
+				F60B26F6216AD19500B5FE5C /* K2D-MediumItalic.ttf in Resources */,
+				F60B26F2216AD19500B5FE5C /* K2D-Regular.ttf in Resources */,
+				F60B26EF216AD19500B5FE5C /* K2D-LightItalic.ttf in Resources */,
+				F60B26F0216AD19500B5FE5C /* K2D-Light.ttf in Resources */,
 				F6DC6C0F216A70C70084293D /* Assets.xcassets in Resources */,
 				F6DC6C0D216A70C40084293D /* Main.storyboard in Resources */,
+				F60B26F8216AD19500B5FE5C /* K2D-Medium.ttf in Resources */,
+				F60B26F4216AD19500B5FE5C /* K2D-ThinItalic.ttf in Resources */,
+				F60B26F7216AD19500B5FE5C /* K2D-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
