@@ -37,6 +37,12 @@ class AssistantViewController: JSQMessagesViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //added by peteryxu
+        UserProfile.shared.setName(name: "Alex")
+        UserProfile.shared.setCity(city: "Raleigh")
+        UserProfile.shared.setAddress(address: "100 Oxford Road, Raleigh")
+        
         setupInterface()
         setupSender()
         setupWatsonServices()
@@ -79,8 +85,22 @@ extension AssistantViewController {
     
     /// Start a new conversation
     func startAssistant() {
+        
+        
+        //added by peteryxu
+        let name =  UserProfile.shared.name
+        let city =  UserProfile.shared.city
+        
+        context = Context(conversationID: nil, system: nil, additionalProperties: [:])
+        //print(name)
+        context?.additionalProperties["User"] = .string(name)
+        context?.additionalProperties["city"] = .string(city)
+        let request = MessageRequest(input: nil, context: context)
+        print("sending initial request to WA")
+        
         assistant.message(
             workspaceID: workspace,
+            request: request,
             failure: failure,
             success: presentResponse
         )
@@ -91,12 +111,20 @@ extension AssistantViewController {
         let text = response.output.text.joined()
         context = response.context // save context to continue conversation
         
+        //print("after call")
+        //print(context?.additionalProperties["User"])
+        //print(context?.additionalProperties["location"])
+        
         // synthesize and speak the response
-        textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
-            self.audioPlayer = try? AVAudioPlayer(data: audio)
-            self.audioPlayer?.prepareToPlay()
-            self.audioPlayer?.play()
-        }
+        //Added by peteryxu
+        //let voice = "en-US_LisaVoice"
+        //textToSpeech.synthesize(text: text, accept: accept, voice: voice, failure: failure)
+        
+        /* textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
+         self.audioPlayer = try? AVAudioPlayer(data: audio)
+         self.audioPlayer?.prepareToPlay()
+         self.audioPlayer?.play()
+         } */
         
         // create message
         let message = JSQMessage(
@@ -188,7 +216,13 @@ extension AssistantViewController {
             failure: failure,
             success: presentResponse
         )
+        
+        
+        // self.view.endEditing(true)  added by peteryxu   hide keyboard after send
+        inputToolbar.contentView.textView.resignFirstResponder()
+        
     }
+    
     
     override func didPressAccessoryButton(_ sender: UIButton!) {
         // required by super class
@@ -249,6 +283,7 @@ extension AssistantViewController {
         jsqCell.textView.textColor = (isOutgoing) ? .white : .black
         return jsqCell
     }
+    
+    
 }
-
 

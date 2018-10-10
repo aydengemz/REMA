@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8547D0EB216D9A0000BE7112 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547D0EA216D9A0000BE7112 /* UserProfile.swift */; };
 		85DD662D6DCB2169986ADCD2 /* Pods_REMA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF637B8E93E9F49E0DCAFB1 /* Pods_REMA.framework */; };
 		F60B26EE216AD19500B5FE5C /* K2D-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E3216AD19300B5FE5C /* K2D-SemiBold.ttf */; };
 		F60B26EF216AD19500B5FE5C /* K2D-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60B26E4216AD19300B5FE5C /* K2D-LightItalic.ttf */; };
@@ -34,6 +35,7 @@
 		45631E22BE5D00D5E5178F13 /* Pods-REMA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REMA.release.xcconfig"; path = "Pods/Target Support Files/Pods-REMA/Pods-REMA.release.xcconfig"; sourceTree = "<group>"; };
 		5BF637B8E93E9F49E0DCAFB1 /* Pods_REMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BAEE264B0DCC058E3D8B69 /* Pods-REMA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REMA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REMA/Pods-REMA.debug.xcconfig"; sourceTree = "<group>"; };
+		8547D0EA216D9A0000BE7112 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		F60B26E3216AD19300B5FE5C /* K2D-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-SemiBold.ttf"; sourceTree = "<group>"; };
 		F60B26E4216AD19300B5FE5C /* K2D-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-LightItalic.ttf"; sourceTree = "<group>"; };
 		F60B26E5216AD19400B5FE5C /* K2D-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Light.ttf"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		F6DC6C06216A70C40084293D /* REMA */ = {
 			isa = PBXGroup;
 			children = (
+				8547D0EA216D9A0000BE7112 /* UserProfile.swift */,
 				F62A446F216A81CF00F02781 /* Credentials.swift */,
 				F62A4470216A81CF00F02781 /* User.swift */,
 				F62A446D216A81C200F02781 /* AssistantViewController.swift */,
@@ -280,6 +283,7 @@
 			files = (
 				F6DC6C1A216A735E0084293D /* PageViewController.swift in Sources */,
 				F62A446E216A81C200F02781 /* AssistantViewController.swift in Sources */,
+				8547D0EB216D9A0000BE7112 /* UserProfile.swift in Sources */,
 				F62A4472216A81CF00F02781 /* User.swift in Sources */,
 				F62A4471216A81CF00F02781 /* Credentials.swift in Sources */,
 				F6DC6C0A216A70C40084293D /* ViewController.swift in Sources */,
