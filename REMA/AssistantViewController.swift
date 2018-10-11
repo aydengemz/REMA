@@ -117,14 +117,17 @@ extension AssistantViewController {
         
         // synthesize and speak the response
         //Added by peteryxu
-        //let voice = "en-US_LisaVoice"
+        //let voice = "en-US_AllisonVoice"
         //textToSpeech.synthesize(text: text, accept: accept, voice: voice, failure: failure)
         
-        /* textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
+        /* if (!text.starts(with: "http")) {
+        textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
          self.audioPlayer = try? AVAudioPlayer(data: audio)
          self.audioPlayer?.prepareToPlay()
          self.audioPlayer?.play()
-         } */
+         }
+        }  */
+            
         
         // create message
         let message = JSQMessage(
