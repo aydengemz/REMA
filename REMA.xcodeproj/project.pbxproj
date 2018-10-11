@@ -23,6 +23,7 @@
 		F62A446E216A81C200F02781 /* AssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A446D216A81C200F02781 /* AssistantViewController.swift */; };
 		F62A4471216A81CF00F02781 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A446F216A81CF00F02781 /* Credentials.swift */; };
 		F62A4472216A81CF00F02781 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A4470216A81CF00F02781 /* User.swift */; };
+		F64B8EF9216EF11F00133D9F /* sea_beach_lovely_sunset_view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F64B8EF8216EF11E00133D9F /* sea_beach_lovely_sunset_view.jpg */; };
 		F6DC6C08216A70C40084293D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC6C07216A70C40084293D /* AppDelegate.swift */; };
 		F6DC6C0A216A70C40084293D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC6C09216A70C40084293D /* ViewController.swift */; };
 		F6DC6C0D216A70C40084293D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DC6C0B216A70C40084293D /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		F62A446D216A81C200F02781 /* AssistantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistantViewController.swift; sourceTree = "<group>"; };
 		F62A446F216A81CF00F02781 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		F62A4470216A81CF00F02781 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F64B8EF8216EF11E00133D9F /* sea_beach_lovely_sunset_view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sea_beach_lovely_sunset_view.jpg; path = Assets.xcassets/sea_beach_lovely_sunset_view.jpg; sourceTree = "<group>"; };
 		F6DC6C04216A70C40084293D /* REMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DC6C07216A70C40084293D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6DC6C09216A70C40084293D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				F6DC6C09216A70C40084293D /* ViewController.swift */,
 				F6DC6C19216A735E0084293D /* PageViewController.swift */,
 				F6DC6C0B216A70C40084293D /* Main.storyboard */,
+				F64B8EF8216EF11E00133D9F /* sea_beach_lovely_sunset_view.jpg */,
 				F6DC6C0E216A70C70084293D /* Assets.xcassets */,
 				F6DC6C10216A70C70084293D /* LaunchScreen.storyboard */,
 				F6DC6C13216A70C70084293D /* Info.plist */,
@@ -213,6 +216,7 @@
 				F60B26F2216AD19500B5FE5C /* K2D-Regular.ttf in Resources */,
 				F60B26EF216AD19500B5FE5C /* K2D-LightItalic.ttf in Resources */,
 				F60B26F0216AD19500B5FE5C /* K2D-Light.ttf in Resources */,
+				F64B8EF9216EF11F00133D9F /* sea_beach_lovely_sunset_view.jpg in Resources */,
 				F6DC6C0F216A70C70084293D /* Assets.xcassets in Resources */,
 				F6DC6C0D216A70C40084293D /* Main.storyboard in Resources */,
 				F60B26F8216AD19500B5FE5C /* K2D-Medium.ttf in Resources */,

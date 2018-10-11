@@ -22,9 +22,6 @@
         <array key="K2D-Medium.ttf">
             <string>K2D-Medium</string>
         </array>
-        <array key="K2D-SemiBold.ttf">
-            <string>K2D-SemiBold</string>
-        </array>
         <array key="K2D-SemiBoldItalic.ttf">
             <string>K2D-SemiBoldItalic</string>
         </array>
@@ -41,7 +38,8 @@
         <!--View Controller-->
         <scene sceneID="wUV-8B-2vu">
             <objects>
-                <viewController storyboardIdentifier="sb1" id="vsl-Ki-byt" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TlX-T9-oMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="vsl-Ki-byt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mx4-qo-Ami">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,38 +92,20 @@ Save Lives</string>
                         <viewLayoutGuide key="safeArea" id="jkj-2A-2F0"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TlX-T9-oMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="428" y="-181.25937031484258"/>
+            <point key="canvasLocation" x="2146" y="1238"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A9y-s1-64z">
             <objects>
-                <viewController storyboardIdentifier="sb2" id="a8o-DG-WqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb1" id="a8o-DG-WqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AlW-BB-1LF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colorful-wallpaper-iphone-wallpaper-relax-1386141" translatesAutoresizingMaskIntoConstraints="NO" id="dRC-Sp-JyD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="710"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uio" translatesAutoresizingMaskIntoConstraints="NO" id="Adl-jI-OKu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="707"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before Emergencies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYS-Sw-AyW">
-                                <rect key="frame" x="30" y="130" width="316" height="46"/>
-                                <fontDescription key="fontDescription" name="K2D-SemiBold" family="K2D SemiBold" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kon-GE-bAx">
-                                <rect key="frame" x="16" y="228" width="343" height="295"/>
-                                <string key="text">○ Weather forecast
-○ Emergency kits
-○ Florence/hurricane latest status
-○ How/where to buy generator
-</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="K2D-ExtraLightItalic" family="K2D ExtraLight" pointSize="32"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kkkk" translatesAutoresizingMaskIntoConstraints="NO" id="DTT-pn-u1z">
                                 <rect key="frame" x="16" y="36" width="50" height="50"/>
                                 <constraints>
@@ -133,22 +113,39 @@ Save Lives</string>
                                     <constraint firstAttribute="height" constant="50" id="w81-JB-wW3"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mt-vX-vxa">
+                                <rect key="frame" x="109" y="95" width="156" height="73"/>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftX-GZ-HH0">
+                                <rect key="frame" x="112" y="542" width="150" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="LZz-WR-Fuw"/>
+                                    <constraint firstAttribute="width" constant="150" id="ZwM-Oe-oLk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="36"/>
+                                <state key="normal" title="Log in" backgroundImage="transparent-buttons-black-6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hea-gf-asj" kind="presentation" modalTransitionStyle="crossDissolve" id="zba-Qe-Wy0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kon-GE-bAx" firstAttribute="leading" secondItem="ndH-ej-TBE" secondAttribute="leading" constant="16" id="G6F-j9-PfN"/>
-                            <constraint firstItem="dRC-Sp-JyD" firstAttribute="bottom" secondItem="ndH-ej-TBE" secondAttribute="bottom" constant="43" id="Mgl-AX-CKW"/>
+                            <constraint firstItem="7Mt-vX-vxa" firstAttribute="top" secondItem="ndH-ej-TBE" secondAttribute="top" constant="75" id="GKg-bf-jK8"/>
                             <constraint firstItem="DTT-pn-u1z" firstAttribute="leading" secondItem="ndH-ej-TBE" secondAttribute="leading" constant="16" id="N3V-Io-vdg"/>
-                            <constraint firstItem="ndH-ej-TBE" firstAttribute="trailing" secondItem="KYS-Sw-AyW" secondAttribute="trailing" constant="29" id="TPq-ej-efM"/>
-                            <constraint firstItem="dRC-Sp-JyD" firstAttribute="leading" secondItem="ndH-ej-TBE" secondAttribute="leading" id="TyK-IJ-8Sr"/>
-                            <constraint firstItem="KYS-Sw-AyW" firstAttribute="leading" secondItem="ndH-ej-TBE" secondAttribute="leading" constant="30" id="Vj9-qN-1P8"/>
+                            <constraint firstItem="7Mt-vX-vxa" firstAttribute="centerX" secondItem="AlW-BB-1LF" secondAttribute="centerX" id="PN8-8u-0Wn"/>
+                            <constraint firstItem="ndH-ej-TBE" firstAttribute="bottom" secondItem="ftX-GZ-HH0" secondAttribute="bottom" constant="40" id="QgA-k4-WmC"/>
+                            <constraint firstItem="Adl-jI-OKu" firstAttribute="top" secondItem="AlW-BB-1LF" secondAttribute="top" id="ZOM-yO-QbK"/>
+                            <constraint firstItem="Adl-jI-OKu" firstAttribute="bottom" secondItem="ndH-ej-TBE" secondAttribute="bottom" constant="40" id="Zr2-9S-EDn"/>
                             <constraint firstItem="DTT-pn-u1z" firstAttribute="top" secondItem="ndH-ej-TBE" secondAttribute="top" constant="16" id="e1M-1x-tWw"/>
-                            <constraint firstItem="KYS-Sw-AyW" firstAttribute="top" secondItem="DTT-pn-u1z" secondAttribute="bottom" constant="44" id="he9-Vv-Ckd"/>
-                            <constraint firstItem="ndH-ej-TBE" firstAttribute="trailing" secondItem="kon-GE-bAx" secondAttribute="trailing" constant="16" id="oiu-NT-0EZ"/>
-                            <constraint firstItem="ndH-ej-TBE" firstAttribute="bottom" secondItem="kon-GE-bAx" secondAttribute="bottom" constant="144" id="pQF-rJ-pUV"/>
-                            <constraint firstItem="kon-GE-bAx" firstAttribute="top" secondItem="KYS-Sw-AyW" secondAttribute="bottom" constant="52" id="r9h-Wp-WVZ"/>
-                            <constraint firstItem="dRC-Sp-JyD" firstAttribute="trailing" secondItem="ndH-ej-TBE" secondAttribute="trailing" id="vCT-AM-Wmh"/>
-                            <constraint firstItem="dRC-Sp-JyD" firstAttribute="top" secondItem="AlW-BB-1LF" secondAttribute="top" id="vGG-Wu-vUt"/>
+                            <constraint firstItem="ftX-GZ-HH0" firstAttribute="centerX" secondItem="AlW-BB-1LF" secondAttribute="centerX" id="e7V-SZ-4UT"/>
+                            <constraint firstItem="Adl-jI-OKu" firstAttribute="leading" secondItem="AlW-BB-1LF" secondAttribute="leading" id="sXk-AE-YRF"/>
+                            <constraint firstAttribute="trailing" secondItem="Adl-jI-OKu" secondAttribute="trailing" id="xWq-jJ-lty"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ndH-ej-TBE"/>
                     </view>
@@ -160,30 +157,14 @@ Save Lives</string>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="sb4" id="BYZ-38-t0r" customClass="ViewController" customModule="REMA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb3" id="BYZ-38-t0r" customClass="ViewController" customModule="REMA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Atardecer_Punto_Fijo_Venezuela_Vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oGc-P7-fPE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea_beach_lovely_sunset_view" translatesAutoresizingMaskIntoConstraints="NO" id="cda-Yp-Bmc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="707"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After Emergencies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALS-VT-Dvn">
-                                <rect key="frame" x="40" y="130" width="295" height="46"/>
-                                <fontDescription key="fontDescription" name="K2D-SemiBoldItalic" family="K2D SemiBold" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U1I-KX-omH">
-                                <rect key="frame" x="16" y="228" width="343" height="224"/>
-                                <string key="text">○ File insurance claims
-○ How/Where to donate
-○ Volunteering
-</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="K2D-ExtraLightItalic" family="K2D ExtraLight" pointSize="32"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kkkk" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-gp-WWq">
                                 <rect key="frame" x="16" y="36" width="50" height="50"/>
                                 <constraints>
@@ -191,22 +172,39 @@ Save Lives</string>
                                     <constraint firstAttribute="width" constant="50" id="TYA-Mu-hYS"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39R-d7-zN5">
+                                <rect key="frame" x="109" y="95" width="156" height="73"/>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDk-vX-TUL">
+                                <rect key="frame" x="112" y="542" width="150" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="Qrg-MB-fea"/>
+                                    <constraint firstAttribute="width" constant="150" id="ifR-4s-HNB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="36"/>
+                                <state key="normal" title="Log in" backgroundImage="transparent-buttons-black-6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hea-gf-asj" kind="presentation" modalTransitionStyle="crossDissolve" id="2uY-Re-ygP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ALS-VT-Dvn" secondAttribute="trailing" constant="40" id="1SL-LX-xhf"/>
                             <constraint firstItem="JJO-gp-WWq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6Qf-p7-6BT"/>
-                            <constraint firstItem="oGc-P7-fPE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6Qv-Ue-W8a"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U1I-KX-omH" secondAttribute="bottom" constant="215" id="OVH-Ha-Qm2"/>
-                            <constraint firstItem="ALS-VT-Dvn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="PZR-yU-kMv"/>
+                            <constraint firstItem="39R-d7-zN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fwf-7a-2ah"/>
                             <constraint firstItem="JJO-gp-WWq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="SgH-t1-52X"/>
-                            <constraint firstItem="U1I-KX-omH" firstAttribute="top" secondItem="ALS-VT-Dvn" secondAttribute="bottom" constant="52" id="ShU-hL-so5"/>
-                            <constraint firstItem="oGc-P7-fPE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VEh-F6-MGn"/>
-                            <constraint firstItem="U1I-KX-omH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vz2-Ea-UOM"/>
-                            <constraint firstItem="oGc-P7-fPE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WDc-i6-rN1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U1I-KX-omH" secondAttribute="trailing" constant="16" id="X6q-g6-54Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oGc-P7-fPE" secondAttribute="bottom" constant="-40" id="rlL-Uj-PYy"/>
-                            <constraint firstItem="ALS-VT-Dvn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="tB1-SS-uFW"/>
+                            <constraint firstAttribute="trailing" secondItem="cda-Yp-Bmc" secondAttribute="trailing" id="TM9-Cz-oSa"/>
+                            <constraint firstAttribute="bottom" secondItem="cda-Yp-Bmc" secondAttribute="bottom" constant="-40" id="UBB-iP-Xvy"/>
+                            <constraint firstItem="39R-d7-zN5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="Y5J-8u-pWK"/>
+                            <constraint firstItem="cda-Yp-Bmc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d1I-mk-uvJ"/>
+                            <constraint firstItem="cda-Yp-Bmc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="npI-E8-2iN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hDk-vX-TUL" secondAttribute="bottom" constant="40" id="tOP-Ry-cGP"/>
+                            <constraint firstItem="hDk-vX-TUL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vha-EP-yAj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -314,12 +312,12 @@ Save Lives</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MuA-1Q-r3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1316" y="1352"/>
+            <point key="canvasLocation" x="1311" y="1239"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8MH-Xl-abg">
             <objects>
-                <viewController storyboardIdentifier="sb5" id="yHD-ys-kty" sceneMemberID="viewController">
+                <viewController id="yHD-ys-kty" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EUa-Tj-FwK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -375,9 +373,11 @@ Save Lives</string>
                             <constraint firstItem="Clz-zt-0bJ" firstAttribute="centerX" secondItem="EUa-Tj-FwK" secondAttribute="centerX" id="C82-ig-NUG"/>
                             <constraint firstItem="gLM-fh-Nly" firstAttribute="top" secondItem="Whg-Xk-UjL" secondAttribute="top" constant="110" id="HX1-dF-k1Y"/>
                             <constraint firstItem="Whg-Xk-UjL" firstAttribute="bottom" secondItem="mG0-Es-FO1" secondAttribute="bottom" constant="50" id="SHz-FV-W2P"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mG0-Es-FO1" secondAttribute="trailing" constant="20" symbolic="YES" id="V57-DZ-3Ke"/>
                             <constraint firstItem="Clz-zt-0bJ" firstAttribute="leading" secondItem="Whg-Xk-UjL" secondAttribute="leading" constant="16" id="a8D-hf-W9D"/>
                             <constraint firstItem="sZ3-Iq-QRa" firstAttribute="top" secondItem="Whg-Xk-UjL" secondAttribute="top" constant="16" id="bS5-6r-9cR"/>
                             <constraint firstItem="gLM-fh-Nly" firstAttribute="leading" secondItem="Whg-Xk-UjL" secondAttribute="leading" constant="84.5" id="hZ8-Yr-vUF"/>
+                            <constraint firstItem="Av5-3v-m6j" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EUa-Tj-FwK" secondAttribute="leading" constant="20" symbolic="YES" id="khg-WZ-hJv"/>
                             <constraint firstItem="Clz-zt-0bJ" firstAttribute="top" secondItem="gLM-fh-Nly" secondAttribute="bottom" constant="52" id="qxM-zf-xvh"/>
                             <constraint firstItem="mG0-Es-FO1" firstAttribute="top" secondItem="Clz-zt-0bJ" secondAttribute="bottom" constant="107" id="sOq-HD-wUT"/>
                             <constraint firstItem="Whg-Xk-UjL" firstAttribute="trailing" secondItem="Clz-zt-0bJ" secondAttribute="trailing" constant="16" id="saz-5O-c9w"/>
@@ -389,32 +389,19 @@ Save Lives</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rst-gD-PgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080.8" y="523.98800599700155"/>
+            <point key="canvasLocation" x="-642" y="1264"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7cI-aA-vuN">
             <objects>
-                <viewController storyboardIdentifier="sb3" id="h7l-Sf-cUz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb2" id="h7l-Sf-cUz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ETS-EC-tIk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hse-t1-rc7">
-                                <rect key="frame" x="16" y="228" width="343" height="246"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">○ School opening hours
-○ Work operating hours
-○ Flood info
-○ Road Info
-○ Ask/Report power outages
-○ Where to get help/shelter
-</string>
-                                <fontDescription key="fontDescription" name="K2D-ExtraLightItalic" family="K2D ExtraLight" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="During Emergencies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsX-2C-chl">
-                                <rect key="frame" x="28" y="130" width="319" height="46"/>
-                                <fontDescription key="fontDescription" name="K2D-SemiBoldItalic" family="K2D SemiBold" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REMA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsX-2C-chl">
+                                <rect key="frame" x="28" y="130" width="319" height="73"/>
+                                <fontDescription key="fontDescription" name="K2D-SemiBoldItalic" family="K2D SemiBold" pointSize="56"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -425,33 +412,71 @@ Save Lives</string>
                                     <constraint firstAttribute="height" constant="50" id="PDe-fA-bIN"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dfsafd" translatesAutoresizingMaskIntoConstraints="NO" id="JNH-p1-2yI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="707"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kkkk" translatesAutoresizingMaskIntoConstraints="NO" id="fvo-lS-Pob">
+                                <rect key="frame" x="25" y="25" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="CgE-6s-U4H"/>
+                                    <constraint firstAttribute="height" constant="50" id="ycF-or-r8y"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc2-SA-eqa">
+                                <rect key="frame" x="109.5" y="95" width="156" height="73"/>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eg2-Mp-Vdf">
+                                <rect key="frame" x="112.5" y="542" width="150" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="UV0-bk-VF8"/>
+                                    <constraint firstAttribute="width" constant="150" id="jHA-We-0FS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="K2D-Light" family="K2D Light" pointSize="36"/>
+                                <state key="normal" title="Log in" backgroundImage="transparent-buttons-black-6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hea-gf-asj" kind="presentation" modalTransitionStyle="crossDissolve" id="1sb-C7-wFw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="36f-SS-rKL" firstAttribute="trailing" secondItem="FsX-2C-chl" secondAttribute="trailing" constant="28" id="04S-uc-gml"/>
+                            <constraint firstItem="eg2-Mp-Vdf" firstAttribute="centerX" secondItem="ETS-EC-tIk" secondAttribute="centerX" id="1J7-dl-tqX"/>
                             <constraint firstItem="TL5-yH-qjZ" firstAttribute="leading" secondItem="36f-SS-rKL" secondAttribute="leading" constant="16" id="2l1-fy-Sjy"/>
-                            <constraint firstItem="36f-SS-rKL" firstAttribute="trailing" secondItem="hse-t1-rc7" secondAttribute="trailing" constant="16" id="5BL-Ln-nEI"/>
-                            <constraint firstItem="hse-t1-rc7" firstAttribute="top" secondItem="FsX-2C-chl" secondAttribute="bottom" constant="52" id="TmK-f9-sfN"/>
+                            <constraint firstItem="fvo-lS-Pob" firstAttribute="top" secondItem="ETS-EC-tIk" secondAttribute="top" constant="25" id="3iy-Kb-qun"/>
+                            <constraint firstItem="36f-SS-rKL" firstAttribute="bottom" secondItem="eg2-Mp-Vdf" secondAttribute="bottom" constant="40" id="7iX-Di-qL0"/>
+                            <constraint firstItem="JNH-p1-2yI" firstAttribute="top" secondItem="ETS-EC-tIk" secondAttribute="top" id="Nda-Wd-af6"/>
+                            <constraint firstItem="zc2-SA-eqa" firstAttribute="top" secondItem="36f-SS-rKL" secondAttribute="top" constant="75" id="RYm-Bk-iOI"/>
                             <constraint firstItem="FsX-2C-chl" firstAttribute="top" secondItem="36f-SS-rKL" secondAttribute="top" constant="110" id="cUF-Mk-qaU"/>
                             <constraint firstItem="FsX-2C-chl" firstAttribute="leading" secondItem="36f-SS-rKL" secondAttribute="leading" constant="28" id="cac-6M-pxA"/>
                             <constraint firstItem="TL5-yH-qjZ" firstAttribute="top" secondItem="36f-SS-rKL" secondAttribute="top" constant="16" id="hET-Va-kZQ"/>
-                            <constraint firstItem="36f-SS-rKL" firstAttribute="bottom" secondItem="hse-t1-rc7" secondAttribute="bottom" constant="193" id="lwo-0t-TXC"/>
-                            <constraint firstItem="hse-t1-rc7" firstAttribute="leading" secondItem="36f-SS-rKL" secondAttribute="leading" constant="16" id="oXc-Eo-iOe"/>
+                            <constraint firstItem="fvo-lS-Pob" firstAttribute="leading" secondItem="36f-SS-rKL" secondAttribute="leading" constant="25" id="mjF-xJ-jX6"/>
+                            <constraint firstItem="JNH-p1-2yI" firstAttribute="leading" secondItem="36f-SS-rKL" secondAttribute="leading" id="nEh-Hn-ng4"/>
+                            <constraint firstItem="zc2-SA-eqa" firstAttribute="centerX" secondItem="ETS-EC-tIk" secondAttribute="centerX" id="q6Y-38-xTr"/>
+                            <constraint firstAttribute="trailing" secondItem="JNH-p1-2yI" secondAttribute="trailing" id="xOu-tC-uhZ"/>
+                            <constraint firstItem="JNH-p1-2yI" firstAttribute="bottom" secondItem="36f-SS-rKL" secondAttribute="bottom" constant="40" id="xjM-Ax-Hgw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="36f-SS-rKL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nge-Rq-vIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="523.98800599700155"/>
+            <point key="canvasLocation" x="1157.5999999999999" y="523.98800599700155"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Atardecer_Punto_Fijo_Venezuela_Vertical" width="1383" height="2908"/>
-        <image name="colorful-wallpaper-iphone-wallpaper-relax-1386141" width="1493" height="2985"/>
+        <image name="dfsafd" width="1080" height="1920"/>
         <image name="kkkk" width="612" height="656"/>
+        <image name="sea_beach_lovely_sunset_view" width="768" height="1024"/>
+        <image name="transparent-buttons-black-6" width="640" height="320"/>
+        <image name="uio" width="721" height="1280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ptT-Am-i5Y"/>
+        <segue reference="2uY-Re-ygP"/>
     </inferredMetricsTieBreakers>
 </document>
