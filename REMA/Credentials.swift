@@ -20,6 +20,8 @@ public struct Credentials {
     public static let AssistantWorkspace = "22b5b09d-1d08-47d7-a897-2a799af2013c"
     public static let SpeechToTextUsername = "fdb57f41-7db1-4350-8650-b27ed3d1e283"
     public static let SpeechToTextPassword = "1nHYLlsBRDQj"
-    public static let TextToSpeechUsername = "e4f731d7-d234-4544-83eb-fad7c9cb24a8"
-    public static let TextToSpeechPassword = "c2PiumHKTLGQ"
+    //public static let TextToSpeechUsername = "e4f731d7-d234-4544-83eb-fad7c9cb24a8"
+    //public static let TextToSpeechPassword = "c2PiumHKTLGQ"
+    public static let TextToSpeechUsername = "98cfc17b-b42f-432d-8788-d3474943f079"
+    public static let TextToSpeechPassword = "mQ8WSHc0Th31"
 }

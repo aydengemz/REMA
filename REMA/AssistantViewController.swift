@@ -90,11 +90,13 @@ extension AssistantViewController {
         //added by peteryxu
         let name =  UserProfile.shared.name
         let city =  UserProfile.shared.city
+        let address =  UserProfile.shared.address
         
         context = Context(conversationID: nil, system: nil, additionalProperties: [:])
         //print(name)
         context?.additionalProperties["User"] = .string(name)
         context?.additionalProperties["city"] = .string(city)
+          context?.additionalProperties["address"] = .string(address)
         let request = MessageRequest(input: nil, context: context)
         print("sending initial request to WA")
         
@@ -117,16 +119,16 @@ extension AssistantViewController {
         
         // synthesize and speak the response
         //Added by peteryxu
-        //let voice = "en-US_AllisonVoice"
+        let voice = "en-US_AllisonVoice"
         //textToSpeech.synthesize(text: text, accept: accept, voice: voice, failure: failure)
         
-        /* if (!text.starts(with: "http")) {
-        textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
+        // if (!text.starts(with: "http")) {
+        textToSpeech.synthesize(text: text, accept: "audio/wav", voice: voice, failure: failure) { audio in
          self.audioPlayer = try? AVAudioPlayer(data: audio)
          self.audioPlayer?.prepareToPlay()
          self.audioPlayer?.play()
          }
-        }  */
+        //}
             
         
         // create message
